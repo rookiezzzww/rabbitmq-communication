@@ -7,14 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logistics-service" />
+        <module name="logistics-service (1)" />
         <module name="order-service" />
+        <module name="logistics-service (2)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="logistics-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="logistics-service" options="-parameters" />
+      <module name="logistics-service (1)" options="-parameters" />
+      <module name="logistics-service (2)" options="-parameters" />
       <module name="order-service" options="-parameters" />
     </option>
   </component>
