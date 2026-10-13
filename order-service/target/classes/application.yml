@@ -1,0 +1,6 @@
+server:
+  port: 9090
+  #amqp://username:password@Ip:port/virtual-host
+spring:
+  rabbitmq:
+    addresses: amqp://admin:admin@192.168.233.128:5672/study
